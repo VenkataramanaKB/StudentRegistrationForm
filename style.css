@@ -1,0 +1,83 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+.title {
+    font-weight: 100;
+    text-align: justify;
+    font-size: large;
+    color: black;
+    margin-left: 100px;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100vh;
+    background-image: url('./Assets/BG3.png');
+    width: 100vw;
+    height: 100vh;
+
+}
+
+::placeholder {
+    color: black;
+}
+
+input,
+select,
+textarea {
+    border: none;
+    background-color: palevioletred;
+    border-bottom: 2px solid red;
+}
+
+button {
+    background-color: palevioletred;
+    border-radius: 5px;
+}
+
+.form-container {
+    padding: 25px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    align-items: center;
+    width: 400px;
+    float: right;
+    margin-right: 200px;
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(100px);
+}
+
+.input-box2 {
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.text-container {
+    /*display: flex;
+    align-items: center;*/
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.input-box,
+.submit {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
